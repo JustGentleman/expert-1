@@ -1,0 +1,228 @@
+/* line 5, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/gift.scss */
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 3, ../sass/gift.scss */
+html {
+  font-size: 10px;
+  position: relative;
+  font-family: "Microsoft YaHei";
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  /* line 4, ../sass/gift.scss */
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  /* line 5, ../sass/gift.scss */
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 639px) {
+  /* line 6, ../sass/gift.scss */
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 719px) {
+  /* line 7, ../sass/gift.scss */
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 749px) {
+  /* line 8, ../sass/gift.scss */
+  html {
+    font-size: 24.5px;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 799px) {
+  /* line 9, ../sass/gift.scss */
+  html {
+    font-size: 26.5px;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 10, ../sass/gift.scss */
+  html {
+    font-size: 28px;
+  }
+}
+/* line 12, ../sass/gift.scss */
+#body {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background: url(../images/1930-1080.jpg) no-repeat center top;
+}
+
+/* line 14, ../sass/gift.scss */
+#top {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* line 15, ../sass/gift.scss */
+#login {
+  width: 33.6rem;
+  height: 22.6rem;
+  position: absolute;
+  background: white;
+  z-index: 10;
+  top: 8rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 0.2rem solid #6a3a05;
+  padding: 0 0.8rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  -ms-border-radius: 36px;
+  -o-border-radius: 36px;
+  border-radius: 36px;
+}
+
+/* line 26, ../sass/gift.scss */
+.sec {
+  padding-top: 1.2rem;
+}
+
+/* line 27, ../sass/gift.scss */
+.yel {
+  color: #f99300;
+  text-align: left;
+}
+
+/* line 28, ../sass/gift.scss */
+#num {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* line 29, ../sass/gift.scss */
+#num2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+/* line 30, ../sass/gift.scss */
+.rest {
+  color: #970000;
+  text-indent: 8.6rem;
+  margin: 0.6rem 0;
+  font-size: 24px;
+}
+
+/* line 31, ../sass/gift.scss */
+.hidden {
+  display: none;
+}
+
+/* line 32, ../sass/gift.scss */
+p {
+  font-size: 24px;
+  /*white-space:nowrap;*/
+}
+
+/* line 33, ../sass/gift.scss */
+.tu ul {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+}
+
+/* line 34, ../sass/gift.scss */
+.tu ul li {
+  padding: 0.1rem;
+  flex: 1;
+  text-align: center;
+}
+
+/* line 35, ../sass/gift.scss */
+#btn {
+  text-align: center;
+  display: block;
+  margin: 0.6rem  auto;
+}
+
+/* line 42, ../sass/gift.scss */
+#btn img {
+  width: 15rem;
+  height: 2.4rem;
+}
